@@ -11,6 +11,9 @@
     justify-content: center;
     align-items: center;
     padding: 2vh 30vh;
+
+    position: relative;
+    z-index: 1;
 }
 
 .nav-block__item {
