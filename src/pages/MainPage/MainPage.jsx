@@ -1,10 +1,10 @@
 import React from "react";
 import "./MainPage.css";
-import ArrowScroll from "../../components/utilities/Arrow/ArrowScroll";
+import DownArrow from "../../components/utilities/Arrows/DownArrow/DownArrow";
 
 export default function Main() {
     return (
-        <div>
+        <div className="bg-transparent">
             <div className="title-block">
                 <h3 className="title-welcome text-align-center">
                     Добро пожаловать на официальный сайт церкви
@@ -13,7 +13,7 @@ export default function Main() {
                 <h3 className="title-tagline text-align-center">От темноты до светла</h3>
             </div>
             
-            <ArrowScroll />
+            <DownArrow />
         </div>
     );
 }

@@ -1,0 +1,21 @@
+.up-arrow {
+    width: 50px;
+    position: absolute;
+    top: 3vh;
+    left: calc(50% - 25px);
+    animation: arrowUp 2s infinite
+}
+
+@keyframes arrowUp {
+    0% {
+        top: 3vh;
+    }
+
+    50% {
+        top: 1.5vh;
+    }
+
+    100% {
+        top: 3vh;
+    }
+}

@@ -1,3 +1,7 @@
+.bg-transparent {
+    background-color: rgba(0, 0, 0, 0.7);     
+}
+
 .title-block {
     z-index: 1;
     position: absolute;
@@ -5,7 +9,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    animation: fadeIn 2s forwards;    
+    animation: fadeIn 2s forwards;   
 }
 
 @keyframes fadeIn {

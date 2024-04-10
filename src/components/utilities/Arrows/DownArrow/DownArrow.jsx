@@ -1,9 +1,9 @@
 import React from "react";
-import './ArrowScroll.css';
-import downArrow from './downarrow.svg';
+import './DownArrow.css';
+import downArrow from '../img/downarrow.svg';
 
 
-export default function ArrowScroll() {
+export default function DownArrow() {
     return (
         <div>
             <img
