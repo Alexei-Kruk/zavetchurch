@@ -1,0 +1,21 @@
+.down-arrow {
+    width: 50px;
+    position: absolute;
+    bottom: 3vh;
+    left: calc(50% - 25px);
+    animation: arrowDown 2s infinite
+}
+
+@keyframes arrowDown {
+    0% {
+        bottom: 3vh;
+    }
+
+    50% {
+        bottom: 1.5vh;
+    }
+
+    100% {
+        bottom: 3vh;
+    }
+}

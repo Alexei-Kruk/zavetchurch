@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Logo from './utilities/Logo/Logo';
+import Logo from '../utilities/Logo/Logo';
 import './Header.css';
 
 

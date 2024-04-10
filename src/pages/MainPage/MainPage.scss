@@ -1,0 +1,44 @@
+.title-block {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: fadeIn 2s forwards;    
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(1.5);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+.title-welcome {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.title-name {
+    margin-top: 8vh;
+    font-size: 4.5rem;
+    font-weight: 600;
+}
+
+.title-tagline {
+    margin-top: -1vh;
+    font-size: 1.3rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.text-align-center {
+    text-align: center;
+}
