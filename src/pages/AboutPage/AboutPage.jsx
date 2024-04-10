@@ -1,10 +1,10 @@
 import React from "react";
 import './AboutPage.css';
-import UpArrow from "../../components/utilities/Arrows/UpArrow/UpArrow";
-import DownArrow from "../../components/utilities/Arrows/DownArrow/DownArrow";
+// import UpArrow from "../../components/utilities/Arrows/UpArrow/UpArrow";
+// import DownArrow from "../../components/utilities/Arrows/DownArrow/DownArrow";
 
 
-export default function AboutPage() {
+export const AboutPage = () => {
     return (
         <div className='about-page-container'>
             {/* <UpArrow /> */}

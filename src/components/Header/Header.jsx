@@ -4,7 +4,7 @@ import Logo from '../utilities/Logo/Logo';
 import './Header.css';
 
 
-export default function Header() {
+export const Header = () => {
     const NavItem = ({ text }) => {
         return (
             <li className='nav__item'>{text}</li>

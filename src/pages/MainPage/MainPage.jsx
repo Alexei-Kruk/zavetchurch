@@ -2,7 +2,8 @@ import React from "react";
 import "./MainPage.css";
 import DownArrow from "../../components/utilities/Arrows/DownArrow/DownArrow";
 
-export default function Main() {
+
+export const MainPage = () => {
     return (
         <div className="bg-transparent">
             <div className="title-block">
