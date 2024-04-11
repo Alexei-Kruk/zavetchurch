@@ -1,10 +1,10 @@
 import React from "react";
+import './GeneralPage.css';
 
 import { Header } from "../../components/Header/Header";
 import { MainPage } from "../MainPage/MainPage";
 import { AboutPage } from "../AboutPage/AboutPage";
-
-// import './GeneralPage.css';
+import { EventsPage } from "../EventsPage/EventsPage";
 
 
 export const GeneralPage = () => {
@@ -13,7 +13,7 @@ export const GeneralPage = () => {
             <Header />
             <MainPage />
             <AboutPage />
+            <EventsPage />
         </div>
     );
-   
 }

@@ -1,10 +1,11 @@
 .down-arrow {
   width: 50px;
-  position: absolute;
+  position: relative;
   bottom: 3vh;
   left: calc(50% - 25px);
   -webkit-animation: arrowDown 2s infinite;
           animation: arrowDown 2s infinite;
+  cursor: pointer;
 }
 
 @-webkit-keyframes arrowDown {
@@ -29,4 +30,4 @@
   100% {
     bottom: 3vh;
   }
-}/*# sourceMappingURL=ArrowScroll.css.map */
+}/*# sourceMappingURL=DownArrow.css.map */

@@ -1,13 +1,13 @@
 import React from "react";
 import './AboutPage.css';
-// import UpArrow from "../../components/utilities/Arrows/UpArrow/UpArrow";
-// import DownArrow from "../../components/utilities/Arrows/DownArrow/DownArrow";
+import UpArrow from "../../components/utilities/Arrows/UpArrow/UpArrow";
+import DownArrow from "../../components/utilities/Arrows/DownArrow/DownArrow";
 
 
 export const AboutPage = () => {
     return (
-        <div className='about-page-container'>
-            {/* <UpArrow /> */}
+        <div className="about-page-container">
+            <UpArrow />
 
             <div className='about-page-block'>
                 <h1 className='about-page-title'>
@@ -40,7 +40,7 @@ export const AboutPage = () => {
                 </p>
             </div>
 
-            {/* <DownArrow /> */}
+            <DownArrow />
         </div>
     );
 }

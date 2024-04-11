@@ -12,8 +12,8 @@ export const Header = () => {
     };
     
     return (
-        <nav className='header-container'>
-            <div className="nav-block">
+        <div className='header-container'>
+            <nav className="nav-block">
                 <ul className='nav-block__item'>
                     <NavItem text="Главная" />
                     <NavItem text="О нас" />
@@ -23,11 +23,11 @@ export const Header = () => {
                 <Logo />
 
                 <ul className='nav-block__item'>
-                    <NavItem text="Блог" />
+                    <NavItem text="Помилуй блог" />
                     <NavItem text="Мероприятия" />
                     <NavItem text="Контакты" />
                 </ul>      
-            </div>
-        </nav>
+            </nav>
+        </div>
     );
 }

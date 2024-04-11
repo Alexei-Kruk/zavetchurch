@@ -1,9 +1,11 @@
 .up-arrow {
     width: 50px;
-    position: absolute;
+    position: relative;
     top: 3vh;
     left: calc(50% - 25px);
-    animation: arrowUp 2s infinite
+    animation: arrowUp 2s infinite;
+
+    cursor: pointer;
 }
 
 @keyframes arrowUp {

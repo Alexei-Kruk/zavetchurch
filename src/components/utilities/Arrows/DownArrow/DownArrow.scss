@@ -1,9 +1,11 @@
 .down-arrow {
     width: 50px;
-    position: absolute;
+    position: relative;
     bottom: 3vh;
     left: calc(50% - 25px);
-    animation: arrowDown 2s infinite
+    animation: arrowDown 2s infinite;
+
+    cursor: pointer;
 }
 
 @keyframes arrowDown {
