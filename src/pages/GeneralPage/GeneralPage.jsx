@@ -5,6 +5,7 @@ import { Header } from "../../components/Header/Header";
 import { MainPage } from "../MainPage/MainPage";
 import { AboutPage } from "../AboutPage/AboutPage";
 import { EventsPage } from "../EventsPage/EventsPage";
+import { ContactsPage } from "../ContactsPage/ContactsPage";
 
 
 export const GeneralPage = () => {
@@ -14,6 +15,7 @@ export const GeneralPage = () => {
             <MainPage />
             <AboutPage />
             <EventsPage />
+            <ContactsPage />
         </div>
     );
 }

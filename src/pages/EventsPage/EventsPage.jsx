@@ -6,8 +6,8 @@ import UpArrow from "../../components/utilities/Arrows/UpArrow/UpArrow";
 import DownArrow from "../../components/utilities/Arrows/DownArrow/DownArrow";
 
 import hometeam from './img/home-team-img.png';
+import sermons from './img/sermons-img.jpg'
 import breakfast from './img/breakfast-img.png';
-import sportzavet from './img/sport-zavet-img.png';
 import { LearnMoreBtn } from "../../components/utilities/Buttons/LearnMoreBTN/LearnMoreBtn";
 
 
@@ -40,23 +40,29 @@ export const EventsPage = () => {
                 <div className="event__item">
                     <img
                         className="event__img"
-                        src={breakfast}
-                        alt='Изображение мужских завтраков'
+                        src={sermons}
+                        alt='Изображение собрания'
                     />
-                    <p>
-                        Мужские завтраки
-                    </p>
+                    <div className="event__text">
+                        <h2 className="event__title">
+                            Воскресные собрания
+                        </h2>
+                        <LearnMoreBtn />
+                    </div>
                 </div>
 
                 <div className="event__item">
                     <img
                         className="event__img"
-                        src={sportzavet}
-                        alt='Изображение спортзавета'
+                        src={breakfast}
+                        alt='Изображение мужских завтраков'
                     />
-                    <p>
-                        Спортзавет
-                    </p>
+                    <div className="event__text">
+                        <h2 className="event__title">
+                            Мужские завтраки
+                        </h2>
+                        <LearnMoreBtn />
+                    </div>
                 </div>
             </div>
 

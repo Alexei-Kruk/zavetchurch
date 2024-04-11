@@ -1,0 +1,46 @@
+.contacts-page-container {
+
+}
+
+.contacts-page-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 17vh 0 0;
+}
+
+.contacts__img {
+    margin: 0 0.4vh;
+    width: 6vh;
+    cursor: pointer;
+}
+
+.follow-text {
+    margin: 7vh 0;
+    max-width: 45vh;
+
+    font-weight: 300;
+}
+
+.contacts-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3vh;
+    margin-bottom: 15vh;
+}
+
+.contacts-data__item {
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 0.2;
+}
+
+.full-logo-img {
+    width: 12vh;
+    margin-bottom: 5vh;
+    cursor: pointer;
+}

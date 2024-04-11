@@ -1,11 +1,11 @@
 import React from "react";
-// import './LearnMoreBtn.css';
+import './LearnMoreBtn.css';
 
 
 export const LearnMoreBtn = () => {
     return (
         <div className="btn-container">
-            <button>Узнать подробнее</button>
+            <button className="btn">Узнать подробнее</button>
         </div>
     );
 }
