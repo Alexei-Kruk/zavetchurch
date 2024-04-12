@@ -6,8 +6,10 @@ import DownArrow from "../../components/utilities/Arrows/DownArrow/DownArrow";
 
 export const AboutPage = () => {
     return (
-        <div className="about-page-container">
-            <UpArrow />
+        <div id="aboutPage">
+            <a href="#mainPage" className='link-style'>
+                <UpArrow />
+            </a> 
 
             <div className='about-page-block'>
                 <h1 className='about-page-title'>
@@ -40,7 +42,9 @@ export const AboutPage = () => {
                 </p>
             </div>
 
-            <DownArrow />
+            <a href="#sermonsPage" className='link-style'>
+                <DownArrow />
+            </a>
         </div>
     );
 }

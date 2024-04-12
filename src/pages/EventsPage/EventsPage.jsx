@@ -13,8 +13,10 @@ import { LearnMoreBtn } from "../../components/utilities/Buttons/LearnMoreBTN/Le
 
 export const EventsPage = () => {
     return (
-        <div className="events-page-container">
-            <UpArrow />
+        <div id="eventsPage">
+            <a href="#blogPage" className='link-style'>
+                <UpArrow />
+            </a>
 
             <div className="event-name-page__item">
                 <h1 className="event-name-page">
@@ -66,7 +68,9 @@ export const EventsPage = () => {
                 </div>
             </div>
 
-            <DownArrow />
+            <a href="#contactsPage" className='link-style'>
+                <DownArrow />
+            </a>
         </div>
     );
 }

@@ -13,8 +13,10 @@ import fullLogo from './img/white-logo-full.png';
 
 export const ContactsPage = () => {
     return (
-        <div className="contacts-page-container">
-            <UpArrow />
+        <div id="contactsPage">
+            <a href="#eventsPage" className='link-style'>
+                <UpArrow />
+            </a>
 
             <div className="contacts-page-block">
                 <div className="icons-block">
@@ -62,11 +64,13 @@ export const ContactsPage = () => {
                 </div>
 
                 <div className="full-logo">
-                    <img
-                        className="full-logo-img"
-                        src={fullLogo}
-                        alt='logo'
-                    />
+                    <a href='#mainPage' className='link-style'>
+                        <img
+                            className="full-logo-img"
+                            src={fullLogo}
+                            alt='logo'
+                        />
+                    </a> 
                 </div>
             </div>
         </div>

@@ -15,17 +15,33 @@ export const Header = () => {
         <div className='header-container'>
             <nav className="nav-block">
                 <ul className='nav-block__item'>
-                    <NavItem text="Главная" />
-                    <NavItem text="О нас" />
-                    <NavItem text="Проповеди" />
+                    <a href='#mainPage' className='link-style'>
+                        <NavItem text="Главная" />    
+                    </a>
+                    <a href='#aboutPage' className='link-style'>
+                        <NavItem text="О нас" />    
+                    </a>
+                    <a href='#sermonsPage' className='link-style'>
+                        <NavItem text="Проповеди" />
+                    </a>
+                    
                 </ul>
                 
-                <Logo />
+                <a href='#mainPage' className='link-style'>
+                    <Logo />
+                </a>
+                
 
                 <ul className='nav-block__item'>
-                    <NavItem text="Помилуй блог" />
-                    <NavItem text="Мероприятия" />
-                    <NavItem text="Контакты" />
+                    <a href='#blogPage' className='link-style'> 
+                        <NavItem text="Помилуй блог" />
+                    </a>
+                    <a href='#eventsPage' className='link-style'>
+                        <NavItem text="Мероприятия" />
+                    </a>
+                    <a href='#contactsPage' className='link-style'>
+                        <NavItem text="Контакты" />
+                    </a>
                 </ul>      
             </nav>
         </div>

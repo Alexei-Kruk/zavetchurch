@@ -8,3 +8,7 @@ body {
 
     background: url("./img/bg-img.png") center/100% auto no-repeat fixed;
 }
+
+html {
+    scroll-behavior: smooth;
+}

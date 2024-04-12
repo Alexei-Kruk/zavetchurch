@@ -29,7 +29,14 @@
     font-size: 1.1rem;
     width: 16vh;
     text-align: center;
-
-    cursor: pointer;
 }
 
+.link-style {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-style:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

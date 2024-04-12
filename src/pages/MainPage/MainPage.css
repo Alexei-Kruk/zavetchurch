@@ -4,10 +4,8 @@
   opacity: 0;
   -webkit-animation: fadeIn 2s forwards;
           animation: fadeIn 2s forwards;
-  margin-top: 43vh;
   margin-left: 50%;
   margin-bottom: 15vh;
-  height: 100%;
 }
 
 @-webkit-keyframes fadeIn {
@@ -40,6 +38,7 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
+  margin-top: 43vh;
 }
 
 .title-name {

@@ -5,7 +5,7 @@ import DownArrow from "../../components/utilities/Arrows/DownArrow/DownArrow";
 
 export const MainPage = () => {
     return (
-        <div>
+        <div id="mainPage">
             <div className="title-block">
                 <h3 className="title-welcome text-align-center">
                     Добро пожаловать на официальный сайт церкви
@@ -18,7 +18,9 @@ export const MainPage = () => {
                 </h3>
             </div>
             
-            <DownArrow />
+            <a href="#aboutPage" className='link-style'>
+                <DownArrow />
+            </a>
         </div>
     );
 }
