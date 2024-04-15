@@ -5,7 +5,7 @@ import './EventsPage.css';
 import UpArrow from "../../components/utilities/Arrows/UpArrow/UpArrow";
 import DownArrow from "../../components/utilities/Arrows/DownArrow/DownArrow";
 
-import hometeam from './img/home-team-img.png';
+import homegroup from './img/home-group-img.png';
 import sermons from './img/sermons-img.jpg'
 import breakfast from './img/breakfast-img.png';
 import { LearnMoreBtn } from "../../components/utilities/Buttons/LearnMoreBTN/LearnMoreBtn";
@@ -28,7 +28,7 @@ export const EventsPage = () => {
                 <div className="event__item">
                     <img
                         className="event__img"
-                        src={hometeam}
+                        src={homegroup}
                         alt='Изображение домашней группы'
                     />
                     <div className="event__text">
