@@ -20,31 +20,70 @@ export const ContactsPage = () => {
 
             <div className="contacts-page-block">
                 <div className="icons-block">
-                    <img
-                        className="contacts__img"
-                        src={telegramIcon}
-                        alt='telegram'
-                    />
-                    <img
-                        className="contacts__img"
-                        src={instagramIcon}
-                        alt='instagram'
-                    />
-                    <img
-                        className="contacts__img"
-                        src={tiktokIcon}
-                        alt='tiktok'
-                    />
-                    <img
-                        className="contacts__img"
-                        src={facebookIcon}
-                        alt='facebook'
-                    />
-                    <img
-                        className="contacts__img"
-                        src={youtubeIcon}
-                        alt='youtube'
-                    />
+                    <a
+                        href='https://telegram.me/@zavetchurch'
+                        className="link-contacts"
+                        target="blank" 
+                    >
+                        <img
+                            className="contacts__img"
+                            src={telegramIcon}
+                            alt='telegram'
+                        />
+                        <span className="link-description">Telegram</span>
+                    </a>
+                    
+                    <a
+                        href='https://www.instagram.com/zavetchurch'
+                        className="link-contacts"
+                        target="blank"
+                    >
+                        <img
+                            className="contacts__img"
+                            src={instagramIcon}
+                            alt='instagram'
+                        />
+                        <span className="link-description">Instagram</span>
+                    </a>
+
+                    <a
+                        href='https://www.tiktok.com/@zavetchurch?lang=en'
+                        className="link-contacts"
+                        target="blank"
+                    >
+                        <img
+                            className="contacts__img"
+                            src={tiktokIcon}
+                            alt='tiktok'
+                        />
+                        <span className="link-description">TikTok</span>
+                    </a>
+                    
+                    <a
+                        href='https://www.facebook.com/zavetchurch'
+                        className="link-contacts"
+                        target="blank"
+                    >
+                        <img
+                            className="contacts__img"
+                            src={facebookIcon}
+                            alt='facebook'
+                        />
+                        <span className="link-description">Facebook</span>
+                    </a>
+                    
+                    <a
+                        href='https://www.youtube.com/@ZavetChurch'
+                        className="link-contacts"
+                        target="blank"
+                    >
+                        <img
+                            className="contacts__img"
+                            src={youtubeIcon}
+                            alt='youtube'
+                        />
+                        <span className="link-description">YouTube</span>
+                    </a>
                 </div>
 
                 <h1 className="follow-text">

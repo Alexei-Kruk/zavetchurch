@@ -13,6 +13,29 @@
     cursor: pointer;
 }
 
+.link-description {
+    visibility: hidden;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.link-contacts {
+    position: relative;
+    display: inline-block;
+}
+
+.link-contacts:hover .link-description {
+    visibility: visible;
+}
+
 .follow-text {
     margin: 7vh 0;
     max-width: 45vh;
