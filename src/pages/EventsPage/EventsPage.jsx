@@ -4,11 +4,10 @@ import './EventsPage.css';
 
 import UpArrow from "../../components/utilities/Arrows/UpArrow/UpArrow";
 import DownArrow from "../../components/utilities/Arrows/DownArrow/DownArrow";
+import { HomegroupPage } from "../../components/ModalWindows/HomegroupPage/HomegroupPage";
+import { SundayMeetingPage } from "../../components/ModalWindows/SundayMeetingPage/SundayMeetingPage";
 
-import homegroup from './img/home-group-img.png';
-import sermons from './img/sermons-img.jpg'
 import breakfast from './img/breakfast-img.png';
-import { LearnMoreBtn } from "../../components/utilities/Buttons/LearnMoreBTN/LearnMoreBtn";
 
 
 export const EventsPage = () => {
@@ -24,34 +23,9 @@ export const EventsPage = () => {
                 </h1>
             </div>
 
-            <div className="events-page-block">
-                <div className="event__item">
-                    <img
-                        className="event__img"
-                        src={homegroup}
-                        alt='Изображение домашней группы'
-                    />
-                    <div className="event__text">
-                        <h2 className="event__title">
-                            Домашние группы
-                        </h2>
-                        <LearnMoreBtn />
-                    </div>
-                </div>
+            <HomegroupPage />
 
-                <div className="event__item">
-                    <img
-                        className="event__img"
-                        src={sermons}
-                        alt='Изображение собрания'
-                    />
-                    <div className="event__text">
-                        <h2 className="event__title">
-                            Воскресные собрания
-                        </h2>
-                        <LearnMoreBtn />
-                    </div>
-                </div>
+            <SundayMeetingPage />
 
                 <div className="event__item">
                     <img
@@ -63,10 +37,8 @@ export const EventsPage = () => {
                         <h2 className="event__title">
                             Мужские завтраки
                         </h2>
-                        <LearnMoreBtn />
                     </div>
                 </div>
-            </div>
 
             <a href="#contactsPage" className='link-style'>
                 <DownArrow />

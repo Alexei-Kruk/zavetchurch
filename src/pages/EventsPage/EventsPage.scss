@@ -44,3 +44,36 @@
     margin: 0 3.6vh;
     // border-radius: 2vh;
 }
+
+
+.modal {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    padding: 5vh;
+    border-radius: 2vh;
+    background-color:rgba(0, 0, 0, 0.1);
+    height: 70vh;
+    width: 70vw;
+}
+
+.btn {
+    font-size: 1.3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+
+    padding: 1.5vh 2.5vh;
+    border-radius: 10px;
+
+    cursor: pointer;
+}

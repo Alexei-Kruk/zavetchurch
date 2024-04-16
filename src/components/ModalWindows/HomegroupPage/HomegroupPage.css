@@ -1,0 +1,95 @@
+.homegroup-background {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1)), rgba(255, 255, 255, 0);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 32px;
+  z-index: 6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 3vh;
+}
+
+.homegroup-container {
+  width: 50vw;
+  font-size: 1.2rem;
+}
+
+.block-title-and-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: justify;
+}
+
+.hg-title {
+  font-weight: 400;
+}
+
+.hg-description {
+  font-weight: 300;
+  line-height: 1.5;
+  max-width: 45vw;
+}
+
+.block-adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.adress-title {
+  font-weight: 400;
+  margin-top: 5vh;
+}
+
+.adress__item {
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.close-btn {
+  margin-top: 3vh;
+  font-size: 1.3rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 1.5vh 2.5vh;
+  border-radius: 10px;
+  cursor: pointer;
+}/*# sourceMappingURL=HomegroupPage.css.map */
