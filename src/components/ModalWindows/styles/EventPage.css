@@ -1,4 +1,4 @@
-.sunday-meeting-background {
+.background__glass-effect {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.1)), rgba(255, 255, 255, 0);
   -webkit-backdrop-filter: blur(20px);
           backdrop-filter: blur(20px);
@@ -24,7 +24,7 @@
   margin: 3vh;
 }
 
-.sunday-meeting-container {
+.event-page__container {
   width: 50vw;
   font-size: 1.2rem;
 }
@@ -46,11 +46,11 @@
   text-align: justify;
 }
 
-.sm-title {
+.event-page__title {
   font-weight: 400;
 }
 
-.sm-description {
+.event-page__description {
   font-weight: 300;
   line-height: 1.5;
   max-width: 45vw;
@@ -73,7 +73,7 @@
   text-align: center;
 }
 
-.adress-title {
+.adress__title {
   font-weight: 400;
   margin-top: 5vh;
 }
@@ -81,6 +81,7 @@
 .adress__item {
   font-weight: 300;
   line-height: 1.5;
+  max-width: 45vw;
 }
 
 .close-btn {
@@ -92,4 +93,58 @@
   padding: 1.5vh 2.5vh;
   border-radius: 10px;
   cursor: pointer;
-}/*# sourceMappingURL=SundayMeetingPage.css.map */
+}
+
+.event__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.event__img {
+  max-width: 45vh;
+  max-height: 45vh;
+  border: 4px solid #bcbcbc;
+  margin: 0 3.6vh;
+}
+
+.event__title {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.event__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.btn {
+  font-size: 1.3rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 1.5vh 2.5vh;
+  border-radius: 10px;
+  cursor: pointer;
+}/*# sourceMappingURL=EventPage.css.map */

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './SundayMeetingPage.css';
+import '../styles/EventPage.css';
 import sermons from './sermons-img.jpg';
 
 
@@ -36,30 +36,29 @@ export const SundayMeetingPage = () => {
             </div>
 
             {showModalSundayMeetingPage && (
-                <div className="sunday-meeting-background">
-                    <div className="sunday-meeting-container">
+                <div className="background__glass-effect">
+                    <div className="event-page__container">
                         <div className="block-title-and-description">
-                            <h1 className="sm-title">
+                            <h1 className="event-page__title">
                                 Воскресные собрания
                             </h1>
-                            <p className="sm-description">
+                            <p className="event-page__description">
                                 Каждое воскресенье мы встречаемся на литургию и прославляем вместе нашего Бога.
                                 Слушаем Его Слово, вникаем в себя и в учение, а также проводим время в общении и в молитве.
                             </p>    
                         </div>
 
                         <div className="block-adress">
-                            <h2 className="adress-title">
+                            <h2 className="adress__title">
                                 Где мы встречаемся
                             </h2>
 
-                            <div className="adress-container">
-                                <p className="adress__item">
-                                    г. Минск, ул. Клумова, 20
-                                    <br />
-                                    Начало в 18:00
-                                </p>     
-                            </div>   
+                            <p className="adress__item">
+                                г. Минск, ул. Клумова, 20
+                                <br />
+                                Начало в 18:00
+                            </p>     
+  
                             <button
                                 className="close-btn"
                                 onClick={closeModalSundayMeetingPage}

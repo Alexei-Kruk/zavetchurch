@@ -1,13 +1,11 @@
 import React from "react";
-
 import './EventsPage.css';
 
 import UpArrow from "../../components/utilities/Arrows/UpArrow/UpArrow";
 import DownArrow from "../../components/utilities/Arrows/DownArrow/DownArrow";
 import { HomegroupPage } from "../../components/ModalWindows/HomegroupPage/HomegroupPage";
 import { SundayMeetingPage } from "../../components/ModalWindows/SundayMeetingPage/SundayMeetingPage";
-
-import breakfast from './img/breakfast-img.png';
+import { MenBreakfastPage } from "../../components/ModalWindows/MenBreakfastPage/MenBreakfastPage";
 
 
 export const EventsPage = () => {
@@ -23,23 +21,12 @@ export const EventsPage = () => {
                 </h1>
             </div>
 
-            <HomegroupPage />
-
-            <SundayMeetingPage />
-
-                <div className="event__item">
-                    <img
-                        className="event__img"
-                        src={breakfast}
-                        alt='Изображение мужских завтраков'
-                    />
-                    <div className="event__text">
-                        <h2 className="event__title">
-                            Мужские завтраки
-                        </h2>
-                    </div>
-                </div>
-
+            <div className="block-page-event">
+                <HomegroupPage />
+                <SundayMeetingPage />
+                <MenBreakfastPage />    
+            </div>
+            
             <a href="#contactsPage" className='link-style'>
                 <DownArrow />
             </a>
