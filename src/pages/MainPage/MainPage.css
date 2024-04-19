@@ -1,3 +1,8 @@
+.main-page-container {
+  top: 0;
+  margin-top: 0;
+}
+
 .title-block {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);

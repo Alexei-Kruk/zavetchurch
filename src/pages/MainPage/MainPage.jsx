@@ -5,7 +5,7 @@ import DownArrow from "../../components/utilities/Arrows/DownArrow/DownArrow";
 
 export const MainPage = () => {
     return (
-        <div id="mainPage">
+        <div id="mainPage" className="main-page-container">
             <div className="title-block">
                 <h3 className="title-welcome text-align-center">
                     Добро пожаловать на официальный сайт церкви
