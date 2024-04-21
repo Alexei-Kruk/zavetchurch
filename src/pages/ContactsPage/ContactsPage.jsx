@@ -103,7 +103,7 @@ export const ContactsPage = () => {
                 </div>
 
                 <div className="full-logo">
-                    <a href='#mainPage' className='link-style'>
+                    <a href='#header' className='link-style'>
                         <img
                             className="full-logo-img"
                             src={fullLogo}

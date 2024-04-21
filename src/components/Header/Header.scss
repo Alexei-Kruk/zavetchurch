@@ -1,9 +1,71 @@
+@media screen and (min-width: 1200px) {
+    .burger-menu {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .logo {
+        font-size: 28px;
+    }
+
+    .menu-item {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        font-size: 24px;
+    }
+
+    .menu-item {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .logo {
+        font-size: 20px;
+    }
+
+    .menu-item {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .logo {
+        font-size: 18px;
+    }
+
+    .menu-item {
+        margin-right: 10px;
+    }
+}
+
+
 .header-container {
     // position: fixed;
     // top: 0;
-    width: 100%;
+    // width: 100%;
     z-index: 5;
 }
+
+// @keyframes fadeIn {
+//     0% {
+//         opacity: 0;
+//         transform: translate(-50%, -50%) scale(1.5);
+//     }
+//     100% {
+//         opacity: 1;
+//         transform: translate(-50%, -50%) scale(1);
+//     }
+// }
 
 .nav-block {
     display: flex;
@@ -13,6 +75,10 @@
 
     position: relative;
     z-index: 3;
+
+    // transform: translate(-50%, -50%);
+    // opacity: 0;
+    // animation: fadeIn 2s forwards; 
 }
 
 .nav-block__item {

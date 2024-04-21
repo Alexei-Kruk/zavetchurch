@@ -12,7 +12,7 @@ export const Header = () => {
     };
     
     return (
-        <div className='header-container'>
+        <div className='header-container' id='header'>
             <nav className="nav-block">
                 <ul className='nav-block__item'>
                     <a href='#mainPage' className='link-style'>

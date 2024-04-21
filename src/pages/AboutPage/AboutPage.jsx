@@ -7,7 +7,7 @@ import DownArrow from "../../components/utilities/Arrows/DownArrow/DownArrow";
 export const AboutPage = () => {
     return (
         <div id="aboutPage">
-            <a href="#mainPage" className='link-style'>
+            <a href="#header" className='link-style'>
                 <UpArrow />
             </a> 
 
