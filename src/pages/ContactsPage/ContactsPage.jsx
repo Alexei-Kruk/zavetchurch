@@ -1,7 +1,6 @@
 import React from "react";
 import './ContactsPage.css';
 import UpArrow from "../../components/utilities/Arrows/UpArrow/UpArrow";
-import DownArrow from "../../components/utilities/Arrows/DownArrow/DownArrow";
 
 import telegramIcon from './img/telegram-icon.svg';
 import instagramIcon from './img/instagram-icon.svg';
@@ -90,7 +89,7 @@ export const ContactsPage = () => {
                     Подписывайтесь на нас и следите за новостями
                 </h1>
 
-                <div className="contacts-data">
+                {/* <div className="contacts-data">
                     <p className="contacts-data__item">
                         г.Минск, ул.Клумова, 20
                     </p>
@@ -100,7 +99,7 @@ export const ContactsPage = () => {
                     <p className="contacts-data__item">
                         Email: alexxxkruk@gmail.com
                     </p>
-                </div>
+                </div> */}
 
                 <div className="full-logo">
                     <a href='#header' className='link-style'>

@@ -47,7 +47,7 @@ export const HomegroupPage = () => {
                         </div>
 
                         <div className="block-adress">
-                            <h2 className="adress__title">
+                            {/* <h2 className="adress__title">
                                 Где мы встречаемся
                             </h2>
                             
@@ -70,7 +70,7 @@ export const HomegroupPage = () => {
                                 Женская домашняя группа
                                 <br />
                                 г. Минск, ул. Данилы Сердича, 24
-                            </p>     
+                            </p>      */}
 
                             <button
                                 className="close-btn"

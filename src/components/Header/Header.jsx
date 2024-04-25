@@ -15,7 +15,7 @@ export const Header = () => {
         <div className='header-container' id='header'>
             <nav className="nav-block">
                 <ul className='nav-block__item'>
-                    <a href='#mainPage' className='link-style'>
+                    <a href='#header' className='link-style'>
                         <NavItem text="Главная" />    
                     </a>
                     <a href='#aboutPage' className='link-style'>
@@ -27,7 +27,7 @@ export const Header = () => {
                     
                 </ul>
                 
-                <a href='#mainPage' className='link-style'>
+                <a href='#header' className='link-style'>
                     <Logo />
                 </a>
                 

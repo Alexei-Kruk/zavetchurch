@@ -46,7 +46,7 @@ export const MenBreakfastPage = () => {
                         </div>
 
                         <div className="block-adress">
-                            <h2 className="adress__title">
+                            {/* <h2 className="adress__title">
                                 Где мы встречаемся
                             </h2>
                             
@@ -55,7 +55,7 @@ export const MenBreakfastPage = () => {
                                 с Тимофеем по телефону или в мессенджере.
                                 <br />
                                 +375-29-57-444-58
-                            </p>
+                            </p> */}
 
                             <button
                                 className="close-btn"

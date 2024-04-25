@@ -49,7 +49,7 @@ export const SundayMeetingPage = () => {
                         </div>
 
                         <div className="block-adress">
-                            <h2 className="adress__title">
+                            {/* <h2 className="adress__title">
                                 Где мы встречаемся
                             </h2>
 
@@ -57,7 +57,7 @@ export const SundayMeetingPage = () => {
                                 г. Минск, ул. Клумова, 20
                                 <br />
                                 Начало в 18:00
-                            </p>     
+                            </p>      */}
   
                             <button
                                 className="close-btn"

@@ -13,6 +13,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 17vh 0 0;
+  height: 77vh;
 }
 
 .contacts__img {
@@ -47,7 +48,7 @@
 }
 
 .follow-text {
-  margin: 7vh 0;
+  margin: 15vh 0 7vh;
   max-width: 45vh;
   font-weight: 300;
 }
@@ -78,6 +79,7 @@
 
 .full-logo-img {
   width: 12vh;
+  margin-top: 10vh;
   margin-bottom: 5vh;
   cursor: pointer;
 }/*# sourceMappingURL=ContactsPage.css.map */
