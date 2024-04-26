@@ -1,5 +1,5 @@
 import React from "react";
-// import './SubscribeBtn.css';
+import './SubscribeBtn.css';
 import youtubeBtn from './youtube-btn.png';
 
 
@@ -11,8 +11,7 @@ export default function SubscribeBtn() {
                 src={youtubeBtn}
                 alt=""
             />
-            
-            Подписаться на канал
+            <span>Подписаться на канал</span>
         </button>
     );
 }

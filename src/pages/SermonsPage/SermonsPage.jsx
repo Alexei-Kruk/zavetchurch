@@ -2,7 +2,7 @@ import React from "react";
 import "./SermonsPage.css";
 import UpArrow from "../../components/utilities/Arrows/UpArrow/UpArrow";
 import DownArrow from "../../components/utilities/Arrows/DownArrow/DownArrow";
-import SubscribeBtn from "../../components/Buttons/SubscribeBtn/SubscribeBtn";
+import SubscribeBtn from "../../components/utilities/Buttons/SubscribeBtn/SubscribeBtn";
 
 export const SermonsPage = () => {
     return (
@@ -62,7 +62,15 @@ export const SermonsPage = () => {
                         </div>
                     </div>
 
-                    <SubscribeBtn />
+                    <a
+                        href="https://www.youtube.com/@ZavetChurch"
+                        target="_blank"
+                        className="link__youtube"
+                        rel="noreferrer"
+                    >
+                        <SubscribeBtn />
+                    </a>
+                    
                 </div>
             </div>
 

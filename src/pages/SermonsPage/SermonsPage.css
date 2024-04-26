@@ -1,5 +1,5 @@
 .sermons-page-block {
-  padding: 8vh 5vh;
+  padding: 5vh 5vh;
   height: 75vh;
 }
 
@@ -56,10 +56,12 @@
       -ms-flex-flow: row nowrap;
           flex-flow: row nowrap;
   gap: 15vh;
+  padding: 5vh 0;
 }
 
-.video__item {
-  padding: 3% 0;
+iframe {
+  -webkit-box-shadow: 0px 10px 8px 10px rgba(44, 44, 44, 0.1);
+          box-shadow: 0px 10px 8px 10px rgba(44, 44, 44, 0.1);
 }
 
 .video__description {
@@ -76,5 +78,14 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 1vh;
+  font-size: 1.2rem;
+  font-weight: 200;
+  padding: 1vh 1vh 0;
+}
+
+.link__youtube {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0;
+  margin: -2vh 0 0;
 }/*# sourceMappingURL=SermonsPage.css.map */

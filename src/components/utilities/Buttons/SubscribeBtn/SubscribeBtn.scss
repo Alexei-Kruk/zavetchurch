@@ -1,0 +1,27 @@
+.subscribe-img {
+    width: 6vh;
+    margin: 0 1vh 0 0;
+}
+
+.subscribe-btn {
+    background-color: #FF0000;
+    color: #fff;
+    font-size: 1.3rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+
+    border: none;
+    border-radius: 1vh;
+
+    margin: 2vh;
+
+    cursor: pointer;
+}
+
+span {
+    margin-right: 1vh;
+}
+
