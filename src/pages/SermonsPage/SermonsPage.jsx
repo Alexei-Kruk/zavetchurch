@@ -1,8 +1,11 @@
 import React from "react";
 import "./SermonsPage.css";
+
 import UpArrow from "../../components/utilities/Arrows/UpArrow/UpArrow";
 import DownArrow from "../../components/utilities/Arrows/DownArrow/DownArrow";
 import SubscribeBtn from "../../components/utilities/Buttons/SubscribeBtn/SubscribeBtn";
+import { SwiperSermons } from "../../components/utilities/SwiperSermons/SwiperSermons";
+
 
 export const SermonsPage = () => {
     return (
@@ -15,53 +18,11 @@ export const SermonsPage = () => {
                 <h1 className="sermons-page-title">Проповеди</h1>
 
                 <div className="video-container">
-                    <div className="video__block">
-                        <div className="video__item">
-                            <iframe
-                                width="560"
-                                height="315"
-                                src="https://www.youtube.com/embed/mMVtpA4DUkE?si=qq8VziUwSqDbhFuQ"
-                                title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
-                            ></iframe>
 
-                            <p></p>
-                        </div>
-                        <div className="video__item">
-                            <iframe
-                                width="560"
-                                height="315"
-                                src="https://www.youtube.com/embed/WF7de166EqE?si=VpBSQxPi3fMKKVEY"
-                                title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
-                            ></iframe>
-
-                            <div className="video__description">
-                                <p>"Ловец людей" - Сергей Лукьянов</p>    
-                                <p>24.03.2024</p>    
-                            </div>
-                            
-                        </div>
-                        <div className="video__item">
-                            <iframe
-                                width="560"
-                                height="315"
-                                src="https://www.youtube.com/embed/ZyTZ4moaMlQ?si=DnvS20sZghHOTp81"
-                                title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
-                            ></iframe>
-                        </div>
+                    <div className="swiper__block">
+                        <SwiperSermons />    
                     </div>
-
+                    
                     <a
                         href="https://www.youtube.com/@ZavetChurch"
                         target="_blank"
@@ -70,7 +31,6 @@ export const SermonsPage = () => {
                     >
                         <SubscribeBtn />
                     </a>
-                    
                 </div>
             </div>
 

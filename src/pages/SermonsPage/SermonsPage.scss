@@ -1,72 +1,37 @@
 .sermons-page-block {
     padding: 5vh 5vh;
-    height: 75vh;
+    height: 80vh;
 }
 
 .sermons-page-title {
     font-size: 2.5rem;
     font-weight: 500;
     text-align: center;
-    margin-bottom: 6vh;
-}
-
-.sermons-page-text {
-    font-size: 1.2rem;
-    text-align: justify;
-    font-weight: 300;
-    line-height: 1.5;
-
-    margin: 3vh 0;
+    margin-bottom: 4vh;
 }
 
 .video-container {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1)), rgba(255, 255, 255, 0);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     border: 1px solid rgba(255, 255, 255, 0.18);
     border-radius: 32px;
 
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-
-.video__block {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row nowrap;
-    gap: 15vh;
-
-    padding: 5vh 0;
-}
-
-.video__item {
-    // padding: 2% 0;
-    
-}
-
-iframe {
-    // border: 0.5vh solid #909090
-    box-shadow: 0px 10px 8px 10px rgba(44, 44, 44, 0.1);
-}
-
-.video__description {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    font-size: 1.2rem;
-    font-weight: 200;
-
-    padding: 1vh 1vh 0;
 }
 
 .link__youtube {
     text-decoration: none;
     cursor: pointer;
     padding: 0;
-    margin: -2vh 0 0;
+    margin: 0;
+}
+
+.swiper__block {
+    min-width: 0;
+    max-width: 94%;
 }
