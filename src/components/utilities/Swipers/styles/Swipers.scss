@@ -1,37 +1,23 @@
 .video-block {
-    padding: 5vh 0 6vh;
+    padding: 3vh 0 3vh;
 }
 
 .video__item {
     margin: 0;
 }
 
-.video__description {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 1vh 1vh 0;
-}
-
-.video__descriprion--text {
-    font-size: 1.2rem;
-    font-weight: 200;
-}
-
 .swiper-button-next {
     animation: arrowSliderNext 2s infinite;
-    margin-right: 35vh;
+    margin-right: 20vh;
 }
 
 .swiper-button-next:after {
     color: #fff;
-    
 }
 
 .swiper-button-prev {
     animation: arrowSliderPrev 2s infinite;
-    margin-left: 35vh;
+    margin-left: 20vh;
 }
 
 .swiper-button-prev:after {

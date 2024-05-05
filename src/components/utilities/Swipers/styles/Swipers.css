@@ -1,37 +1,15 @@
 .video-block {
-  padding: 5vh 0 6vh;
+  padding: 3vh 0 3vh;
 }
 
 .video__item {
   margin: 0;
 }
 
-.video__description {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 1vh 1vh 0;
-}
-
-.video__descriprion--text {
-  font-size: 1.2rem;
-  font-weight: 200;
-}
-
 .swiper-button-next {
   -webkit-animation: arrowSliderNext 2s infinite;
           animation: arrowSliderNext 2s infinite;
-  margin-right: 35vh;
+  margin-right: 20vh;
 }
 
 .swiper-button-next:after {
@@ -41,7 +19,7 @@
 .swiper-button-prev {
   -webkit-animation: arrowSliderPrev 2s infinite;
           animation: arrowSliderPrev 2s infinite;
-  margin-left: 35vh;
+  margin-left: 20vh;
 }
 
 .swiper-button-prev:after {
@@ -92,4 +70,4 @@
   100% {
     left: 3vh;
   }
-}/*# sourceMappingURL=SwiperSermons.css.map */
+}/*# sourceMappingURL=Swipers.css.map */

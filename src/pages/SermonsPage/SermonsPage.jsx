@@ -4,7 +4,7 @@ import "./SermonsPage.css";
 import UpArrow from "../../components/utilities/Arrows/UpArrow/UpArrow";
 import DownArrow from "../../components/utilities/Arrows/DownArrow/DownArrow";
 import SubscribeBtn from "../../components/utilities/Buttons/SubscribeBtn/SubscribeBtn";
-import { SwiperSermons } from "../../components/utilities/SwiperSermons/SwiperSermons";
+import { SwiperSermons } from "../../components/utilities/Swipers/SwiperSermons/SwiperSermons";
 
 
 export const SermonsPage = () => {
