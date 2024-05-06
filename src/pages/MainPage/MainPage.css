@@ -1,64 +1,70 @@
-.main-page-container {
-  top: 0;
-  margin-top: 0;
-}
-
-.title-block {
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  opacity: 0;
-  -webkit-animation: fadeIn 2s forwards;
-          animation: fadeIn 2s forwards;
-  margin-left: 50%;
-  margin-bottom: 15vh;
-}
-
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
-    -webkit-transform: translate(-50%, -50%) scale(1.5);
-            transform: translate(-50%, -50%) scale(1.5);
+    -webkit-transform: translate(0%, 0%) scale(1.5);
+            transform: translate(0%, 0%) scale(1.5);
   }
   100% {
     opacity: 1;
-    -webkit-transform: translate(-50%, -50%) scale(1);
-            transform: translate(-50%, -50%) scale(1);
+    -webkit-transform: translate(0%, 0%) scale(1);
+            transform: translate(0%, 0%) scale(1);
   }
 }
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    -webkit-transform: translate(-50%, -50%) scale(1.5);
-            transform: translate(-50%, -50%) scale(1.5);
+    -webkit-transform: translate(0%, 0%) scale(1.5);
+            transform: translate(0%, 0%) scale(1.5);
   }
   100% {
     opacity: 1;
-    -webkit-transform: translate(-50%, -50%) scale(1);
-            transform: translate(-50%, -50%) scale(1);
+    -webkit-transform: translate(0%, 0%) scale(1);
+            transform: translate(0%, 0%) scale(1);
   }
 }
-.title-welcome {
-  font-size: 1rem;
+.wrapper__intro {
+  width: 100%;
+  max-width: 80vw;
+  margin: 0 auto;
+  height: 85vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.intro-block {
+  opacity: 0;
+  -webkit-animation: fadeIn 2s forwards;
+          animation: fadeIn 2s forwards;
+  margin: 0 0 30vh;
+}
+
+.intro__suptitle {
+  font-size: calc(8px + 0.5vw);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-top: 43vh;
+  text-align: center;
+  margin-top: 30vh;
 }
 
-.title-name {
-  margin-top: 8vh;
-  font-size: 4.5rem;
+.intro__title {
+  margin: 7vh 0 1vh;
+  font-size: calc(18px + 3.3333333333vw);
   font-weight: 600;
+  text-align: center;
 }
 
-.title-tagline {
-  margin-top: -1vh;
-  font-size: 1.3rem;
+.intro__subtitle {
+  font-size: calc(8px + 0.8333333333vw);
   font-weight: 200;
   letter-spacing: 1px;
-}
-
-.text-align-center {
   text-align: center;
 }/*# sourceMappingURL=MainPage.css.map */

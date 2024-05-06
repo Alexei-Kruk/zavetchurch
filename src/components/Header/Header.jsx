@@ -12,38 +12,40 @@ export const Header = () => {
     };
     
     return (
-        <div className='header-container' id='header'>
-            <nav className="nav-block">
-                <ul className='nav-block__item'>
-                    <a href='#header' className='link-style'>
-                        <NavItem text="Главная" />    
-                    </a>
-                    <a href='#aboutPage' className='link-style'>
-                        <NavItem text="О нас" />    
-                    </a>
-                    <a href='#sermonsPage' className='link-style'>
-                        <NavItem text="Проповеди" />
+        <div className='container'>
+            <div className="header" id='header'>
+                <nav className="nav">
+                    <ul className='nav-list'>
+                        <a href='#header' className='nav__link'>
+                            <NavItem text="Главная" />    
+                        </a>
+                        <a href='#aboutPage' className='nav__link'>
+                            <NavItem text="О нас" />    
+                        </a>
+                        <a href='#sermonsPage' className='nav__link'>
+                            <NavItem text="Проповеди" />
+                        </a>
+                        
+                    </ul>
+                    
+                    <a href='#header' className='nav__link'>
+                        <Logo />
                     </a>
                     
-                </ul>
-                
-                <a href='#header' className='link-style'>
-                    <Logo />
-                </a>
-                
 
-                <ul className='nav-block__item'>
-                    <a href='#blogPage' className='link-style'> 
-                        <NavItem text="Помилуй блог" />
-                    </a>
-                    <a href='#eventsPage' className='link-style'>
-                        <NavItem text="Мероприятия" />
-                    </a>
-                    <a href='#contactsPage' className='link-style'>
-                        <NavItem text="Контакты" />
-                    </a>
-                </ul>      
-            </nav>
+                    <ul className='nav-list'>
+                        <a href='#blogPage' className='nav__link'> 
+                            <NavItem text="Помилуй блог" />
+                        </a>
+                        <a href='#eventsPage' className='nav__link'>
+                            <NavItem text="Мероприятия" />
+                        </a>
+                        <a href='#contactsPage' className='nav__link'>
+                            <NavItem text="Контакты" />
+                        </a>
+                    </ul>      
+                </nav>    
+            </div>
         </div>
     );
 }
