@@ -2,4 +2,11 @@
   width: 6vh;
   margin: 0 4vh;
   cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .img-logo {
+    width: 4vh;
+    margin: 0 2vh;
+  }
 }/*# sourceMappingURL=Logo.css.map */

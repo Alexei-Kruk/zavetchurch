@@ -1,0 +1,36 @@
+.header-small-menu {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav-small-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    padding: 3vh 0;
+}
+
+.nav-small-menu-list {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+
+    list-style: none;
+    padding: 0;
+}
+
+.nav__item-small-menu {
+    margin: 1.6vh 3vh;
+    font-size: calc(20px + 6 * (100vw / 932));
+    font-weight: 100;
+}
+
+@media (min-width: 768px) {
+    .header-small-menu {
+        display: none;
+    }
+}

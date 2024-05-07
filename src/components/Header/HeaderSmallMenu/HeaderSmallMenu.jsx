@@ -1,21 +1,28 @@
 import React from 'react';
 
-import Logo from '../utilities/Logo/Logo';
-import './Header.css';
+import Logo from '../../utilities/Logo/Logo';
+import './HeaderSmallMenu.css';
+import DownArrow from '../../utilities/Arrows/DownArrow/DownArrow';
 
 
-export const Header = () => {
+export const HeaderSmallMenu = () => {
     const NavItem = ({ text }) => {
         return (
-            <li className='nav__item'>{text}</li>
+            <li className='nav__item-small-menu'>{text}</li>
         );
     };
     
     return (
         <div className='container'>
-            <div className="header" id='header'>
-                <nav className="nav">
-                    <ul className='nav-list'>
+            <div className="header-small-menu" id='header'>
+                <nav className="nav-small-menu">
+                    <a href='#header' className='nav__link'>
+                        <Logo />
+                    </a>
+
+                    <DownArrow />
+                    
+                    <ul className='nav-small-menu-list'>
                         <a href='#header' className='nav__link'>
                             <NavItem text="Главная" />    
                         </a>
@@ -25,15 +32,6 @@ export const Header = () => {
                         <a href='#sermonsPage' className='nav__link'>
                             <NavItem text="Проповеди" />
                         </a>
-                        
-                    </ul>
-                    
-                    <a href='#header' className='nav__link'>
-                        <Logo />
-                    </a>
-                    
-
-                    <ul className='nav-list'>
                         <a href='#blogPage' className='nav__link'> 
                             <NavItem text="Блог" />
                         </a>
