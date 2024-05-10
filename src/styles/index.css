@@ -14,7 +14,7 @@ body {
 
     color: var(--main-color);
 
-    /* background: url("./img/bg-img.png") center/100% auto no-repeat fixed; */
+    /* background: url("./../img/bg-img.png") center/100% auto no-repeat fixed; */
     background-color: #155a29;
 }
 

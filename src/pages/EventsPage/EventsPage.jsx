@@ -10,7 +10,7 @@ import { MenBreakfastPage } from "../../components/ModalWindows/MenBreakfastPage
 
 export const EventsPage = () => {
     return (
-        <div id="eventsPage">
+        <div className='container' id="eventsPage">
             <a href="#blogPage" className='link-style'>
                 <UpArrow />
             </a>

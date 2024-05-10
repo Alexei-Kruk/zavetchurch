@@ -6,7 +6,7 @@
 .subscribe-btn {
   background-color: #FF0000;
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31,5 +31,56 @@ span {
 }
 
 .subscribe-btn:hover {
-  font-size: 1.35rem;
+  font-size: 21px;
+}
+
+@media (max-width: 1400px) {
+  .subscribe-img {
+    width: 4vh;
+  }
+  .subscribe-btn {
+    font-size: 18px;
+    margin: 2vh;
+  }
+  .subscribe-btn:hover {
+    font-size: 19px;
+  }
+}
+@media (max-width: 1200px) {
+  .subscribe-img {
+    width: 4vh;
+  }
+  .subscribe-btn {
+    font-size: 18px;
+    margin: 2vh;
+  }
+  .subscribe-btn:hover {
+    font-size: 19px;
+  }
+}
+@media (max-width: 1024px) {
+  .subscribe-img {
+    width: 4vh;
+  }
+  .subscribe-btn {
+    font-size: 18px;
+    margin: 2vh;
+    border-radius: 0.7vh;
+  }
+  .subscribe-btn:hover {
+    font-size: 19px;
+  }
+}
+@media (max-width: 820px) {
+  .subscribe-img {
+    width: 3.5vh;
+  }
+  .subscribe-btn {
+    font-size: 16px;
+    margin: 1.5vh;
+    border-radius: 0.5vh;
+  }
+  .subscribe-btn:hover {
+    font-size: 17px;
+  }
 }/*# sourceMappingURL=SubscribeBtn.css.map */

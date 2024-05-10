@@ -40,8 +40,8 @@ export const SwiperBlog = () => {
                     <SwiperSlide className="video-block" key={index}>
                         <iframe
                             className="video__item"
-                            width="900"
-                            height="480"
+                            width={560}
+                            height={315}
                             src={videos['links'][index - 1]}
                             title="YouTube video player"
                             frameborder="0"

@@ -1,5 +1,5 @@
 import React from "react";
-import "./SermonsPage.css";
+import "./../../styles/VideosPage.css";
 
 import UpArrow from "../../components/utilities/Arrows/UpArrow/UpArrow";
 import DownArrow from "../../components/utilities/Arrows/DownArrow/DownArrow";
@@ -9,13 +9,13 @@ import { SwiperSermons } from "../../components/utilities/Swipers/SwiperSermons/
 
 export const SermonsPage = () => {
     return (
-        <div id="sermonsPage">
-            <a href="#aboutPage" className="link-style">
+        <div className="container" id="sermonsPage">
+            <a href="#aboutPage" className="nav__link">
                 <UpArrow />
             </a>
 
-            <div className="sermons-page-block">
-                <h1 className="sermons-page-title">Проповеди</h1>
+            <div className="videos-page-block">
+                <h1 className="page-title">Проповеди</h1>
 
                 <div className="video-container">
 
@@ -34,7 +34,7 @@ export const SermonsPage = () => {
                 </div>
             </div>
 
-            <a href="#blogPage" className="link-style">
+            <a href="#blogPage" className="nav__link">
                 <DownArrow />
             </a>
         </div>
