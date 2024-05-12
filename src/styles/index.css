@@ -35,6 +35,22 @@ h1, h2, h3, h4, h5, h6 {
 .container {
     width: 100%;
     max-width: 1600px;
+    height: auto;
     /* padding: 0 30px; */
     margin: 0 auto;
+}
+
+.arrow__link {
+    color: var(--main-color);
+    text-decoration: none;
+
+    transition: opacity 0.1s linear;
+    opacity: 1;
+}
+
+
+@media (max-width: 1400px) {
+    .arrow__link {
+        display: none;
+    }
 }

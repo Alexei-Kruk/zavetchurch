@@ -11,7 +11,7 @@ import { MenBreakfastPage } from "../../components/ModalWindows/MenBreakfastPage
 export const EventsPage = () => {
     return (
         <div className='container' id="eventsPage">
-            <a href="#blogPage" className='link-style'>
+            <a href="#blogPage" className='arrow__link'>
                 <UpArrow />
             </a>
 
@@ -27,7 +27,7 @@ export const EventsPage = () => {
                 <MenBreakfastPage />    
             </div>
             
-            <a href="#contactsPage" className='link-style'>
+            <a href="#contactsPage" className='arrow__link'>
                 <DownArrow />
             </a>
         </div>

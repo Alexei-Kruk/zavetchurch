@@ -17,10 +17,15 @@ export const GeneralPage = () => {
             <Header />
             <HeaderSmallMenu />
             <MainPage />
+            <hr />
             <AboutPage />
+            <hr />
             <SermonsPage />
+            <hr />
             <BlogPage />
+            <hr />
             <EventsPage />
+            <hr />
             <ContactsPage />
         </div>
     );

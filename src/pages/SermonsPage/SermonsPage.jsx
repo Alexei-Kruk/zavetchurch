@@ -10,7 +10,7 @@ import { SwiperSermons } from "../../components/utilities/Swipers/SwiperSermons/
 export const SermonsPage = () => {
     return (
         <div className="container" id="sermonsPage">
-            <a href="#aboutPage" className="nav__link">
+            <a href="#aboutPage" className="arrow__link">
                 <UpArrow />
             </a>
 
@@ -34,7 +34,7 @@ export const SermonsPage = () => {
                 </div>
             </div>
 
-            <a href="#blogPage" className="nav__link">
+            <a href="#blogPage" className="arrow__link">
                 <DownArrow />
             </a>
         </div>

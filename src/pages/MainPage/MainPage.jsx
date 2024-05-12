@@ -19,7 +19,7 @@ export const MainPage = () => {
                     </h3>
                 </div>
                 
-                <a href="#aboutPage" className='nav__link'>
+                <a href="#aboutPage" className='arrow__link'>
                     <DownArrow />
                 </a>    
             </div>

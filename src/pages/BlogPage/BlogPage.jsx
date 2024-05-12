@@ -9,7 +9,7 @@ import SubscribeBtn from "../../components/utilities/Buttons/SubscribeBtn/Subscr
 export const BlogPage = () => {
     return (
         <div id="blogPage">
-            <a href="#sermonsPage" className='link-style'>
+            <a href="#sermonsPage" className='arrow__link'>
                 <UpArrow />
             </a>
 
@@ -33,7 +33,7 @@ export const BlogPage = () => {
                 </div>
             </div>
 
-            <a href="#eventsPage" className='link-style'>
+            <a href="#eventsPage" className='arrow__link'>
                 <DownArrow />
             </a>
         </div>
