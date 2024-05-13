@@ -16,7 +16,7 @@
   margin-right: 20vh;
 }
 
-.swiper-button-next:after {
+.swiper-button-next::after {
   color: #fff;
 }
 
@@ -26,7 +26,7 @@
   margin-left: 20vh;
 }
 
-.swiper-button-prev:after {
+.swiper-button-prev::after {
   color: #fff;
 }
 

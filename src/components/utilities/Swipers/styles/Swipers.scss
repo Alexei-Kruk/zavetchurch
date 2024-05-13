@@ -14,7 +14,7 @@
     margin-right: 20vh;
 }
 
-.swiper-button-next:after {
+.swiper-button-next::after {
     color: #fff;
 }
 
@@ -23,9 +23,10 @@
     margin-left: 20vh;
 }
 
-.swiper-button-prev:after {
+.swiper-button-prev::after {
     color: #fff;
 }
+
 
 @keyframes arrowSliderNext {
     0% {
@@ -55,6 +56,20 @@
     }
 }
 
+
+@media (max-width: 1400px) {
+    // .swiper-button-next {
+    //     animation: arrowSliderNext 2s infinite;
+    //     margin-right: 20vh;
+    //     margin-bottom: 30vh;
+    // }
+
+    // .swiper-button-prev {
+    //     animation: arrowSliderPrev 2s infinite;
+    //     margin-left: 20vh;
+    //     margin-top: 20vh;
+    // }
+}
 
 @media (max-width: 1200px) {
     .video__item {

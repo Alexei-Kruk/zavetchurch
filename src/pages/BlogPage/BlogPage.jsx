@@ -8,7 +8,7 @@ import SubscribeBtn from "../../components/utilities/Buttons/SubscribeBtn/Subscr
 
 export const BlogPage = () => {
     return (
-        <div id="blogPage">
+        <div className="container" id="blogPage">
             <a href="#sermonsPage" className='arrow__link'>
                 <UpArrow />
             </a>

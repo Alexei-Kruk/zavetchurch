@@ -5,7 +5,7 @@ import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import './../styles/Swipers.css';
 
 import 'swiper/swiper-bundle.css';
-import 'swiper/css/navigation';
+import 'swiper/less/navigation';
 import 'swiper/less/pagination';
 import 'swiper/css';
 
@@ -49,6 +49,9 @@ export const SwiperSermons = () => {
                             referrerpolicy="strict-origin-when-cross-origin"
                             allowfullscreen
                         ></iframe>
+                        
+                        {/* <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div> */}
                     </SwiperSlide>
                 );
             })}         

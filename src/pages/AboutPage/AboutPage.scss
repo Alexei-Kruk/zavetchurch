@@ -1,5 +1,9 @@
 .about-page-block {
-    padding: 8vh 40vh;
+    padding: 8vh 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .about-page-title {
@@ -14,14 +18,15 @@
     text-align: justify;
     font-weight: 200;
     line-height: 1.5;
+    max-width: 100vh;
 
-    margin: 3vh 0;
+    // margin: 3vh 0;
 }
 
 
 @media (max-width: 1400px) {
     .about-page-block {
-        padding: 10vh 30vh;
+        padding: 10vh 10vh;
     }
 
     .about-page-title {
@@ -35,13 +40,13 @@
 
 @media (max-width: 1200px) {
     .about-page-block {
-        padding: 8vh 25vh;
+        padding: 8vh 10vh;
     }
 }
 
 @media (max-width: 1024px) {
     .about-page-block {
-        padding: 6vh 15vh;
+        padding: 6vh 10vh;
     }
 }
 
@@ -53,7 +58,7 @@
 
 @media (max-width: 768px) {
     .about-page-block {
-        padding: 5vh 12vh;
+        padding: 5vh 10vh;
     }
 
     .about-page-text {
