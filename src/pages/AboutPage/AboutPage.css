@@ -66,13 +66,13 @@
 }
 @media (max-width: 480px) {
   .about-page-block {
-    padding: 4vh 3vh;
+    padding: 4vh 2vh;
   }
   .about-page-title {
     font-size: 22px;
     margin-bottom: 3vh;
   }
   .about-page-text {
-    font-size: 14px;
+    font-size: 15px;
   }
 }/*# sourceMappingURL=AboutPage.css.map */

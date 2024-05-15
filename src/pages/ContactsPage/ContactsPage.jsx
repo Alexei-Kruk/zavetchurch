@@ -80,7 +80,7 @@ export const ContactsPage = () => {
                 </h1>
 
                 <div className="full-logo">
-                    <a href="#header" className="nav__link">
+                    <a href="#header-small-menu" className="nav__link">
                         <img
                             className="full-logo-img"
                             src={fullLogo}

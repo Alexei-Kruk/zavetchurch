@@ -19,8 +19,6 @@
     font-weight: 200;
     line-height: 1.5;
     max-width: 100vh;
-
-    // margin: 3vh 0;
 }
 
 
@@ -68,7 +66,7 @@
 
 @media (max-width: 480px) {
     .about-page-block {
-        padding: 4vh 3vh;
+        padding: 4vh 2vh;
     }
 
     .about-page-title {
@@ -77,6 +75,6 @@
     }
 
     .about-page-text {
-        font-size: 14px;
+        font-size: 15px;
     }
 }

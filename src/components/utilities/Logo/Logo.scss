@@ -1,13 +1,13 @@
 .img-logo {
     width: 6vh;
-    margin: 0 4vh;
+    margin: 0 0vh;
 
     cursor: pointer;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1025px) {
     .img-logo {
-        width: 4vh;
+        width: 6vh;
         margin: 0 2vh;
     }
 }
