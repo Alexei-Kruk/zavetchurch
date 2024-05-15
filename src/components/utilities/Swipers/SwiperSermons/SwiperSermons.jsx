@@ -1,12 +1,13 @@
 import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 
 import './../styles/Swipers.css';
 
 import 'swiper/swiper-bundle.css';
 import 'swiper/less/navigation';
 import 'swiper/less/pagination';
+import 'swiper/css/autoplay';
 import 'swiper/css';
 
 
@@ -24,10 +25,10 @@ export const SwiperSermons = () => {
 
     return (
         <Swiper
-            modules={[Navigation, Pagination, Scrollbar, A11y]}
+            modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
             spaceBetween={400}
             slidesPerView={1}
-            navigation
+            autoplay={true}
             pagination={{ clickable: true }}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
