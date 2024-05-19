@@ -5,28 +5,49 @@
 .video__item {
     margin: 0 0 2vh;
     box-shadow: 0 10px 42px 0 rgba(0, 0, 0, 0.37);
-    width: 900px;
-    height: 480px;
+    width: 550px;
+    height: 350px;
+    border-radius: 2vh;
+}
+
+// .swiper-button-next {
+//     animation: arrowSliderNext 2s infinite;
+//     margin-right: 20vh;
+//     margin-top: 20vh;
+
+// }
+
+// .swiper-button-next::after {
+//     color: #fff;
+// }
+
+// .swiper-button-prev {
+//     animation: arrowSliderPrev 2s infinite;
+//     margin-left: 20vh;
+// }
+
+// .swiper-button-prev::after {
+//     color: #fff;
+// }
+
+
+.swiper-button-next,
+.swiper-button-prev {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    z-index: 15;
 }
 
 .swiper-button-next {
-    animation: arrowSliderNext 2s infinite;
-    margin-right: 20vh;
-}
-
-.swiper-button-next::after {
-    color: #fff;
+    right: 20px; /* Расстояние от правого края */
 }
 
 .swiper-button-prev {
-    animation: arrowSliderPrev 2s infinite;
-    margin-left: 20vh;
+    left: 20px; /* Расстояние от левого края */
 }
-
-.swiper-button-prev::after {
-    color: #fff;
-}
-
 
 @keyframes arrowSliderNext {
     0% {
@@ -112,3 +133,4 @@
         height: 160px;
     }
 }
+
