@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .video-block {
   padding: 4vh 0;
 }
@@ -12,23 +11,40 @@
   border-radius: 2vh;
 }
 
-.swiper-button-next,
-.swiper-button-prev {
-  position: relative;
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   width: 30px;
   height: 30px;
-  z-index: 15;
-}
-
-.swiper-button-next {
-  right: 20px; /* Расстояние от правого края */
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
 }
 
 .swiper-button-prev {
-  left: 20px; /* Расстояние от левого края */
+  left: 10px;
+}
+
+.swiper-button-next {
+  right: 10px;
+}
+
+.swiper-button-prev::before,
+.swiper-button-next::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
 }
 
 @-webkit-keyframes arrowSliderNext {

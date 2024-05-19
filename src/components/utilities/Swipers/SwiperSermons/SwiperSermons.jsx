@@ -22,33 +22,33 @@ export const SwiperSermons = () => {
     ];
 
     return (
-        <Swiper
-            modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow]}
-            pagination={{ clickable: true }}
-            a11y={{ enabled: true }}
-            navigation={{
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-                clickable: true,
-            }}
-            loop={true}
-            speed={800}
-            autoplay={false}
-            effect={'coverflow'}
-            grabCursor={true}
-            centeredSlides={true}
-            slidesPerView={3}
-            coverflowEffect={{
-                rotate: 0,
-                stretch: 80,
-                depth: 100,
-                modifier: 1,
-                slideShadows: false,
-            }}
-        >
-            {sermons.map((link, index) => {
-                return (
-                    <div>
+        <div>
+            <Swiper
+                modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow]}
+                pagination={{ clickable: true }}
+                a11y={{ enabled: true }}
+                navigation={{
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                    clickable: true,
+                }}
+                loop={true}
+                speed={800}
+                autoplay={false}
+                effect={'coverflow'}
+                grabCursor={true}
+                centeredSlides={true}
+                slidesPerView={3}
+                coverflowEffect={{
+                    rotate: 0,
+                    stretch: 80,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: false,
+                }}
+            >
+                {sermons.map((link, index) => {
+                    return (
                         <SwiperSlide className="video-block" key={index}>
                             <iframe
                                 className="video__item"
@@ -62,12 +62,11 @@ export const SwiperSermons = () => {
                                 allowfullscreen
                             ></iframe>
                         </SwiperSlide>
-
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                    </div>
-                );
-            })}         
-        </Swiper>
+                    );
+                })}         
+            </Swiper>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
     ); 
 }
