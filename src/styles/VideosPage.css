@@ -42,7 +42,7 @@
 
 .swiper__block {
   min-width: 0;
-  max-width: 100%;
+  width: 90%;
 }
 
 @media (max-width: 1400px) {

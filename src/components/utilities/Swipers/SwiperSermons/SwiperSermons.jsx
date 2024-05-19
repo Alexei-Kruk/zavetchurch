@@ -2,14 +2,17 @@ import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow } from 'swiper/modules';
 
-import './../styles/Swipers.css';
-
 import 'swiper/swiper-bundle.css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 import 'swiper/css';
+
+import './../styles/Swipers.css';
+
+import arrowLeft from '../img/arrow-left.svg';
+import arrowRight from '../img/arrow-right.svg';
 
 
 export const SwiperSermons = () => {
@@ -28,8 +31,8 @@ export const SwiperSermons = () => {
                 pagination={{ clickable: true }}
                 a11y={{ enabled: true }}
                 navigation={{
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
+                    nextEl: '.my-swiper-button-next',
+                    prevEl: '.my-swiper-button-prev',
                     clickable: true,
                 }}
                 loop={true}
@@ -38,11 +41,11 @@ export const SwiperSermons = () => {
                 effect={'coverflow'}
                 grabCursor={true}
                 centeredSlides={true}
-                slidesPerView={3}
+                slidesPerView={1.2}
                 coverflowEffect={{
                     rotate: 0,
-                    stretch: 80,
-                    depth: 100,
+                    stretch: 0,
+                    depth: 400,
                     modifier: 1,
                     slideShadows: false,
                 }}
@@ -65,8 +68,10 @@ export const SwiperSermons = () => {
                     );
                 })}         
             </Swiper>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+
+            <div class="swiper-button-prev my-swiper-button-prev"><img src={arrowLeft} alt=""/></div>
+            <div class="swiper-button-next my-swiper-button-next"><img src={arrowRight} alt=""/></div>
+            <div className="swiper-pagination"></div>
         </div>
     ); 
 }
