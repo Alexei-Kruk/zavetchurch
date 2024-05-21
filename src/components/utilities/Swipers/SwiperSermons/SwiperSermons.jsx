@@ -13,6 +13,7 @@ import './../styles/Swipers.css';
 
 import arrowLeft from '../img/arrow-left.svg';
 import arrowRight from '../img/arrow-right.svg';
+// import { Videos } from "../../../VideoPlayer/VideoPlayer";
 
 
 export const SwiperSermons = () => {
@@ -64,6 +65,7 @@ export const SwiperSermons = () => {
                                 referrerpolicy="strict-origin-when-cross-origin"
                                 allowfullscreen
                             ></iframe>
+                            {/* <Videos /> */}
                         </SwiperSlide>
                     );
                 })}         

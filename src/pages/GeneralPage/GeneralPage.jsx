@@ -9,6 +9,7 @@ import { BlogPage } from "../BlogPage/BlogPage";
 import { EventsPage } from "../EventsPage/EventsPage";
 import { ContactsPage } from "../ContactsPage/ContactsPage";
 import { HeaderSmallMenu } from "../../components/Header/HeaderSmallMenu/HeaderSmallMenu";
+import TestPage from "../TestPage/TestPage";
 
 
 export const GeneralPage = () => {
@@ -27,6 +28,8 @@ export const GeneralPage = () => {
             <EventsPage />
             <hr />
             <ContactsPage />
+            <hr />
+            <TestPage />
         </div>
     );
 }

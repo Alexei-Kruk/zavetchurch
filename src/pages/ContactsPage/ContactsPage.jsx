@@ -49,6 +49,7 @@ export const ContactsPage = () => {
         },
     ];
 
+
     return (
         <div className="container" id="contactsPage">
             <a href="#eventsPage" className="arrow__link">
