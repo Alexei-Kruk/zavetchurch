@@ -3,21 +3,8 @@
   position: relative;
   bottom: 3vh;
   left: calc(50% - 25px);
-  -webkit-animation: arrowDown 2s infinite;
-          animation: arrowDown 2s infinite;
+  animation: arrowDown 2s infinite;
   cursor: pointer;
-}
-
-@-webkit-keyframes arrowDown {
-  0% {
-    bottom: 3vh;
-  }
-  50% {
-    bottom: 1.5vh;
-  }
-  100% {
-    bottom: 3vh;
-  }
 }
 
 @keyframes arrowDown {
