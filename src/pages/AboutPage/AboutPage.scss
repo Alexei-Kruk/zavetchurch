@@ -1,80 +1,79 @@
-.about-page-block {
-    padding: 8vh 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+.about__block {
+	padding: 8vh 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 
-.about-page-title {
-    font-size: 36px;
-    font-weight: 400;
-    text-align: center;
-    margin-bottom: 6vh;
-}
+	&_title {
+		font-size: 36px;
+		font-weight: 400;
+		text-align: center;
+		margin-bottom: 6vh;
+	}
 
-.about-page-text {
-    font-size: 19px;
-    text-align: justify;
-    font-weight: 200;
-    line-height: 1.5;
-    max-width: 100vh;
+	&_text {
+		font-size: 19px;
+		text-align: justify;
+		font-weight: 200;
+		line-height: 1.5;
+		max-width: 100vh;
+	}
 }
-
 
 @media (max-width: 1400px) {
-    .about-page-block {
-        padding: 10vh 10vh;
-    }
+	.about-page-block {
+		padding: 10vh 10vh;
+	}
 
-    .about-page-title {
-        font-size: 30px;
-    }
+	.about-page-title {
+		font-size: 30px;
+	}
 
-    .about-page-text {
-        font-size: 17px;
-    }
+	.about-page-text {
+		font-size: 17px;
+	}
 }
 
 @media (max-width: 1200px) {
-    .about-page-block {
-        padding: 8vh 10vh;
-    }
+	.about-page-block {
+		padding: 8vh 10vh;
+	}
 }
 
 @media (max-width: 1024px) {
-    .about-page-block {
-        padding: 6vh 10vh;
-    }
+	.about-page-block {
+		padding: 6vh 10vh;
+	}
 }
 
 @media (max-width: 820px) {
-    .about-page-block {
-        padding: 5vh 10vh;
-    }
+	.about-page-block {
+		padding: 5vh 10vh;
+	}
 }
 
 @media (max-width: 768px) {
-    .about-page-block {
-        padding: 5vh 10vh;
-    }
+	.about-page-block {
+		padding: 5vh 10vh;
+	}
 
-    .about-page-text {
-        font-size: 16px;
-    }
+	.about-page-text {
+		font-size: 16px;
+	}
 }
 
 @media (max-width: 480px) {
-    .about-page-block {
-        padding: 4vh 2vh;
-    }
+	.about-page-block {
+		padding: 4vh 2vh;
+	}
 
-    .about-page-title {
-        font-size: 22px;
-        margin-bottom: 3vh;
-    }
+	.about-page-title {
+		font-size: 22px;
+		margin-bottom: 3vh;
+	}
 
-    .about-page-text {
-        font-size: 15px;
-    }
+	.about-page-text {
+		font-size: 15px;
+	}
 }

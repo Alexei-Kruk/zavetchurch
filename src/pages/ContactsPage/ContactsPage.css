@@ -6,6 +6,10 @@
   margin-top: 3vh;
 }
 
+.contact__wrapper {
+  padding: 10px 0;
+}
+
 .contacts__img {
   margin: 0 0.4vh;
   width: 6vh;
@@ -49,6 +53,21 @@
   margin-top: 10vh;
   margin-bottom: 12vh;
   cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+}
+.footer__link {
+  font-weight: 200;
+  color: #959595;
+}
+.footer__link_dev {
+  text-decoration: none;
+  color: #959595;
+}
+.footer__link_dev:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 1400px) {

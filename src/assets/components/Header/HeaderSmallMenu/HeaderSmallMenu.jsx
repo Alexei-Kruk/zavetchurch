@@ -33,7 +33,7 @@ export const HeaderSmallMenu = () => {
     };
 
     return (
-        <div className="container">
+        <div>
             <div className="header-small-menu" id="header-small-menu">
                 <nav className="nav-small-menu">
                     <a href="#header" className="nav__link">

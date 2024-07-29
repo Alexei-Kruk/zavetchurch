@@ -1,11 +1,10 @@
-import React from "react";
 import './EventsPage.css';
 
-import UpArrow from "../../components/utilities/Arrows/UpArrow/UpArrow";
-import DownArrow from "../../components/utilities/Arrows/DownArrow/DownArrow";
-import { HomegroupPage } from "../../components/ModalWindows/HomegroupPage/HomegroupPage";
-import { SundayMeetingPage } from "../../components/ModalWindows/SundayMeetingPage/SundayMeetingPage";
-import { MenBreakfastPage } from "../../components/ModalWindows/MenBreakfastPage/MenBreakfastPage";
+import UpArrow from "../../assets/components/utilities/Arrows/UpArrow/UpArrow";
+import DownArrow from "../../assets/components/utilities/Arrows/DownArrow/DownArrow";
+import { HomegroupPage } from "../../assets/components/ModalWindows/HomegroupPage/HomegroupPage";
+import { SundayMeetingPage } from "../../assets/components/ModalWindows/SundayMeetingPage/SundayMeetingPage";
+import { MenBreakfastPage } from "../../assets/components/ModalWindows/MenBreakfastPage/MenBreakfastPage";
 
 
 export const EventsPage = () => {

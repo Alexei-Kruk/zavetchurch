@@ -1,10 +1,9 @@
-import React from "react";
-import "./../../styles/VideosPage.css";
+import "../../assets/styles/VideosPage.css";
 
-import UpArrow from "../../components/utilities/Arrows/UpArrow/UpArrow";
-import DownArrow from "../../components/utilities/Arrows/DownArrow/DownArrow";
-import { SwiperBlog } from "../../components/utilities/Swipers/SwiperBlog/SwiperBlog";
-import SubscribeBtn from "../../components/utilities/Buttons/SubscribeBtn/SubscribeBtn";
+import UpArrow from "../../assets/components/utilities/Arrows/UpArrow/UpArrow";
+import DownArrow from "../../assets/components/utilities/Arrows/DownArrow/DownArrow";
+import { SwiperBlog } from "../../assets/components/utilities/Swipers/SwiperBlog/SwiperBlog";
+import SubscribeBtn from "../../assets/components/utilities/Buttons/SubscribeBtn/SubscribeBtn";
 
 export const BlogPage = () => {
     return (

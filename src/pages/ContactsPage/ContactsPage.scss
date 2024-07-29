@@ -6,6 +6,10 @@
     margin-top: 3vh;
 }
 
+.contact__wrapper {
+    padding: 10px 0;
+}
+
 .contacts__img {
     margin: 0 0.4vh;
     width: 6vh;
@@ -51,6 +55,24 @@
     cursor: pointer;
 }
 
+.footer {
+    text-align: center;
+    // padding-bottom: 10px;
+
+    &__link {
+        font-weight: 200;
+        color: #959595;
+
+        &_dev {
+            text-decoration: none;
+            color: #959595;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
 
 @media (max-width: 1400px) {
     .follow-text {

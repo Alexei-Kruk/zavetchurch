@@ -1,6 +1,5 @@
-import React from "react";
 import "./ContactsPage.css";
-import UpArrow from "../../components/utilities/Arrows/UpArrow/UpArrow";
+import UpArrow from "../../assets/components/utilities/Arrows/UpArrow/UpArrow";
 
 import telegramIcon from "./img/telegram-icon.svg";
 import instagramIcon from "./img/instagram-icon.svg";
@@ -50,7 +49,7 @@ export const ContactsPage = () => {
     ];
 
     return (
-        <div className="container" id="contactsPage">
+        <div className="container contact__wrapper" id="contactsPage">
             <a href="#eventsPage" className="arrow__link">
                 <UpArrow />
             </a>
@@ -89,6 +88,12 @@ export const ContactsPage = () => {
                     </a>
                 </div>
             </div>
+
+            <footer className='footer'>
+                <span className="footer__link">
+                    Разработка сайта: <a className='footer__link_dev' href='https://www.linkedin.com/in/alexei-kruk/' target='_blank' rel='noreferrer'>Алексей Крук</a>
+                </span>
+            </footer>
         </div>
     );
 };

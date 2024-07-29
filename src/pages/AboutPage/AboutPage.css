@@ -1,19 +1,17 @@
-.about-page-block {
+.about__block {
   padding: 8vh 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-
-.about-page-title {
+.about__block_title {
   font-size: 36px;
   font-weight: 400;
   text-align: center;
   margin-bottom: 6vh;
 }
-
-.about-page-text {
+.about__block_text {
   font-size: 19px;
   text-align: justify;
   font-weight: 200;
