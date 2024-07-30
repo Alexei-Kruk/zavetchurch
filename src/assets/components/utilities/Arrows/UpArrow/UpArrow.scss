@@ -1,23 +1,23 @@
 .up-arrow {
-    width: 4vh;
-    position: relative;
-    top: 3vh;
-    left: calc(50% - 25px);
-    animation: arrowUp 2s infinite;
+	width: 4vh;
+	position: relative;
+	top: 3vh;
+	left: calc(50% - 25px);
+	animation: arrowUp 2s infinite;
 
-    cursor: pointer;
+	cursor: pointer;
 }
 
 @keyframes arrowUp {
-    0% {
-        top: 3vh;
-    }
+	0% {
+		top: 3vh;
+	}
 
-    50% {
-        top: 1.5vh;
-    }
+	50% {
+		top: 1.5vh;
+	}
 
-    100% {
-        top: 3vh;
-    }
+	100% {
+		top: 3vh;
+	}
 }

@@ -1,23 +1,23 @@
 .down-arrow {
-    width: 4vh;
-    position: relative;
-    bottom: 3vh;
-    left: calc(50% - 25px);
-    animation: arrowDown 2s infinite;
+	width: 4vh;
+	position: relative;
+	bottom: 3vh;
+	left: calc(50% - 25px);
+	animation: arrowDown 2s infinite;
 
-    cursor: pointer;
+	cursor: pointer;
 }
 
 @keyframes arrowDown {
-    0% {
-        bottom: 3vh;
-    }
+	0% {
+		bottom: 3vh;
+	}
 
-    50% {
-        bottom: 1.5vh;
-    }
+	50% {
+		bottom: 1.5vh;
+	}
 
-    100% {
-        bottom: 3vh;
-    }
+	100% {
+		bottom: 3vh;
+	}
 }

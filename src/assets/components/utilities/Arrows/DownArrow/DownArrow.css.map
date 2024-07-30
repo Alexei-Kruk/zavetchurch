@@ -1,1 +1,1 @@
-{"version":3,"sources":["DownArrow.scss","DownArrow.css"],"names":[],"mappings":"AAAA;EACI,UAAA;EACA,kBAAA;EACA,WAAA;EACA,sBAAA;EACA,gCAAA;EAEA,eAAA;ACAJ;;ADGA;EACI;IACI,WAAA;ECAN;EDGE;IACI,aAAA;ECDN;EDIE;IACI,WAAA;ECFN;AACF","file":"DownArrow.css"}
+{"version":3,"sources":["DownArrow.scss","DownArrow.css"],"names":[],"mappings":"AAAA;EACC,UAAA;EACA,kBAAA;EACA,WAAA;EACA,sBAAA;EACA,gCAAA;EAEA,eAAA;ACAD;;ADGA;EACC;IACC,WAAA;ECAA;EDGD;IACC,aAAA;ECDA;EDID;IACC,WAAA;ECFA;AACF","file":"DownArrow.css"}

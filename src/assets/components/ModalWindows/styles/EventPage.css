@@ -17,8 +17,20 @@
   margin: 10vh 15vh;
 }
 
+@keyframes fadeInEvent {
+  0% {
+    opacity: 0;
+    transform: translate(0%, 0%) scale(0.7);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0%, 0%) scale(1);
+  }
+}
 .event-page__container {
   width: 50vw;
+  animation: fadeInEvent 1s forwards;
+  opacity: 0;
 }
 
 .block-title-and-description {
