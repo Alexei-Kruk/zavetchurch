@@ -54,7 +54,7 @@ export const SwiperBlog = () => {
 				effect={'coverflow'}
 				grabCursor={true}
 				centeredSlides={true}
-				slidesPerView={1.2}
+				slidesPerView={1.4}
 				coverflowEffect={{
 					rotate: 0,
 					stretch: 0,
@@ -77,7 +77,7 @@ export const SwiperBlog = () => {
 								allowFullScreen
 							></iframe>
 						</SwiperSlide>
-					)
+					);
 				})}
 			</Swiper>
 
