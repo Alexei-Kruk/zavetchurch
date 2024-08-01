@@ -79,7 +79,7 @@ export const SwiperSermons = () => {
 				effect={'coverflow'}
 				grabCursor={true}
 				centeredSlides={true}
-				slidesPerView={1.2}
+				slidesPerView={1.4}
 				coverflowEffect={{
 					rotate: 0,
 					stretch: 0,
@@ -105,10 +105,10 @@ export const SwiperSermons = () => {
 			</Swiper>
 
 			<div className='swiper-button-prev my-swiper-button-prev-s'>
-				<img src={arrowLeft} alt='' />
+				<img src={arrowLeft} alt='<' />
 			</div>
 			<div className='swiper-button-next my-swiper-button-next-s'>
-				<img src={arrowRight} alt='' />
+				<img src={arrowRight} alt='>' />
 			</div>
 			<div className='swiper-pagination'></div>
 		</div>

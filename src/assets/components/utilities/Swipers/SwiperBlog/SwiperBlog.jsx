@@ -72,21 +72,20 @@ export const SwiperBlog = () => {
 								height={315}
 								src={link}
 								title='YouTube video player'
-								frameborder='0'
 								allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-								referrerpolicy='strict-origin-when-cross-origin'
-								allowfullscreen
+								referrerPolicy='strict-origin-when-cross-origin'
+								allowFullScreen
 							></iframe>
 						</SwiperSlide>
 					)
 				})}
 			</Swiper>
 
-			<div class='swiper-button-prev my-swiper-button-prev-b'>
-				<img src={arrowLeft} alt='' />
+			<div className='swiper-button-prev my-swiper-button-prev-b'>
+				<img src={arrowLeft} alt='<' />
 			</div>
-			<div class='swiper-button-next my-swiper-button-next-b'>
-				<img src={arrowRight} alt='' />
+			<div className='swiper-button-next my-swiper-button-next-b'>
+				<img src={arrowRight} alt='>' />
 			</div>
 			<div className='swiper-pagination'></div>
 		</div>
