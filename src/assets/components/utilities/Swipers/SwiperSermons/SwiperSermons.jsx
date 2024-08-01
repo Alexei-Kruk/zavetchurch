@@ -1,5 +1,6 @@
-import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react'
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import {
 	Navigation,
 	Pagination,
@@ -7,28 +8,52 @@ import {
 	A11y,
 	Autoplay,
 	EffectCoverflow,
-} from 'swiper/modules'
+} from 'swiper/modules';
 
-import 'swiper/swiper-bundle.css'
-import 'swiper/css/effect-coverflow'
-import 'swiper/css/navigation'
-import 'swiper/css/pagination'
-import 'swiper/css/autoplay'
-import 'swiper/css'
+import 'swiper/swiper-bundle.css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
+import 'swiper/css';
 
-import './../styles/Swipers.css'
+import '../styles/Swipers.css';
 
-import arrowLeft from '../img/arrow-left.svg'
-import arrowRight from '../img/arrow-right.svg'
+import arrowLeft from '../img/arrow-left.svg';
+import arrowRight from '../img/arrow-right.svg';
 
 export const SwiperSermons = () => {
-	const sermons = [
-		'https://www.youtube.com/embed/F3BH6odTVrY?si=eczJ7p-N2lWtZ2ae',
-		'https://www.youtube.com/embed/mMVtpA4DUkE?si=qq8VziUwSqDbhFuQ',
-		'https://www.youtube.com/embed/Th4ye0hQBRw?si=lW6tUWqLSC9xHNkf',
-		'https://www.youtube.com/embed/dhgl479jGFo?si=0y_a_Ez-9zpKBaND',
-		'https://www.youtube.com/embed/zFFQrgjuf0M?si=DfFg1GqzK2U2_a43',
-	]
+	const [videos, setVideos] = useState([]);
+	const apiKey = 'AIzaSyDgtpA3oFKmj_O4QaaeMg3N9CfIcYzSYB8';
+	const channelId = 'UCmgOzUhlDitK9Epvr6YH5jA';
+
+	useEffect(() => {
+		const fetchVideos = async () => {
+			try {
+				const playlistResponse = await axios.get(
+					`https://www.googleapis.com/youtube/v3/channels?part=contentDetails&id=${channelId}&key=${apiKey}`
+				);
+
+				const uploadsPlaylistId =
+					playlistResponse.data.items[0].contentDetails
+						.relatedPlaylists.uploads;
+
+				const videosResponse = await axios.get(
+					`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=5&playlistId=${uploadsPlaylistId}&key=${apiKey}`
+				);
+
+				const videoLinks = videosResponse.data.items.map(item => {
+					return `https://www.youtube.com/embed/${item.snippet.resourceId.videoId}`;
+				});
+
+				setVideos(videoLinks);
+			} catch (error) {
+				console.error('Error fetching videos:', error);
+			}
+		};
+
+		fetchVideos();
+	}, [apiKey, channelId]);
 
 	return (
 		<div>
@@ -63,32 +88,29 @@ export const SwiperSermons = () => {
 					slideShadows: false,
 				}}
 			>
-				{sermons.map((link, index) => {
-					return (
-						<SwiperSlide className='video-block' key={index}>
-							<iframe
-								className='video__item'
-								width={560}
-								height={315}
-								src={link}
-								title='YouTube video player'
-								frameborder='0'
-								allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-								referrerpolicy='strict-origin-when-cross-origin'
-								allowfullscreen
-							></iframe>
-						</SwiperSlide>
-					)
-				})}
+				{videos.map((link, index) => (
+					<SwiperSlide className='video-block' key={index}>
+						<iframe
+							className='video__item'
+							width={560}
+							height={315}
+							src={link}
+							title='YouTube video player'
+							allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+							referrerPolicy='strict-origin-when-cross-origin'
+							allowFullScreen
+						></iframe>
+					</SwiperSlide>
+				))}
 			</Swiper>
 
-			<div class='swiper-button-prev my-swiper-button-prev-s'>
+			<div className='swiper-button-prev my-swiper-button-prev-s'>
 				<img src={arrowLeft} alt='' />
 			</div>
-			<div class='swiper-button-next my-swiper-button-next-s'>
+			<div className='swiper-button-next my-swiper-button-next-s'>
 				<img src={arrowRight} alt='' />
 			</div>
 			<div className='swiper-pagination'></div>
 		</div>
-	)
-}
+	);
+};
